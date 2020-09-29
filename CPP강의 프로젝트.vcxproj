@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="database_controll.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="node_controll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="database_controll.h" />
+    <ClInclude Include="node_controll.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
