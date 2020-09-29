@@ -11,6 +11,7 @@ typedef struct _Node
 
 Node* CreateNode(char* name, int score);
 Node* FindNode(char* name);
+Node* FindNode(int score);
 Node* InsertNode(Node* cur_node, char* name, int score);
 void DeleteNode(Node* cur_node);
 void PrintNode();
@@ -53,6 +54,20 @@ Node* FindNode(char* name)
 	while (tmp->nextNode)
 	{
 		if (!strcmp(tmp->nextNode->name, name))
+			return tmp->nextNode;
+		tmp = tmp->nextNode;
+	}
+
+	return tmp;
+}
+
+Node* FindNode(int score)
+{
+	Node* tmp = head;
+
+	while (tmp->nextNode)
+	{
+		if (tmp->nextNode->score == score)
 			return tmp->nextNode;
 		tmp = tmp->nextNode;
 	}
