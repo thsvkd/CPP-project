@@ -55,9 +55,7 @@ void DeleteNode(Node *cur_node)
 	Node *tmp;
 
 	if (!cur_node->nextNode)
-	{
 		free(cur_node);
-	}
 	else
 	{
 		tmp = head;
