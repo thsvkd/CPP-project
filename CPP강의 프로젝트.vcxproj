@@ -147,6 +147,9 @@
     <ClInclude Include="database_controll.h" />
     <ClInclude Include="node_controll.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="database.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

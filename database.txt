@@ -1,0 +1,5 @@
+name, score
+thsvkd1, 56
+thsvkd2, 76
+thsvkd3, 34
+thsvkd4, 12

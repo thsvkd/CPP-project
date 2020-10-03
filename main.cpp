@@ -13,6 +13,7 @@ enum state {
 int main()
 {
 	head = CreateNode((char *)"head", 0);
+	//tail = CreateNode((char*)"tail", 0);
 	head->nextNode = tail;
 
 	InsertNode(head, (char *)"thsvkd1", 56);
