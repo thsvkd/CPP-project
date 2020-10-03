@@ -1,6 +1,7 @@
 #include "node_controll.h"
 
-enum state {
+enum state
+{
 	RESET,
 	FIND_NAME,
 	FIND_SCORE,
